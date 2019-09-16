@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="1000sp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/ItemInputLayout"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/RequiredError"
+        app:counterEnabled="true"
+        app:counterMaxLength="16"
+        app:counterTextAppearance="@style/CounterError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id = "@+id/ItemName"
+            android:maxLength="16"
+            android:hint="@string/itemName"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CancelButton"
+            android:text="@string/buttonCancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:background="@drawable/button_design2"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/AddButton"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_design"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonOk"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Expenses</string>
+    <string name="NoItemFound">No Item Found</string>
+    <string name="itemName">Item Name</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonOk">OK</string>
+    <string name="AddText">You should add text</string>
+    <string name="requiredText">Item Name is required</string>
+    <string name="sameText">Enter different text</string>
+    <string name="Price">Price</string>
+    <string name="sameItem">It is the same item , Change it or cancel</string>
+    <string name="requiredPrice">Price is required</string>
+</resources>

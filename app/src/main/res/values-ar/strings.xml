@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مصروفاتى</string>
+    <string name="NoItemFound">لا يوجد شئ</string>
+    <string name="itemName">الاسم</string>
+    <string name="buttonCancel">الغاء</string>
+    <string name="buttonOk">موافق</string>
+    <string name="AddText">يجب ادخال اسم</string>
+    <string name="requiredText">الاسم مطلوب</string>
+    <string name="sameText">يجب ادخال اسم مختلف</string>
+    <string name="Price">السعر</string>
+    <string name="sameItem">نفس الاسم يجب ادخال اسم مختلف او الغاء</string>
+    <string name="requiredPrice">السعر مطلوب</string>
+</resources>

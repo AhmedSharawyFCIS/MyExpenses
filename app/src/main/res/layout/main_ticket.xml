@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="horizontal"
+    android:background="@drawable/shadow_layout"
+    android:elevation="@dimen/_5sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/MainName"
+            android:text="Name"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@color/black"
+            android:maxWidth="@dimen/_160sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/MainDate"
+            android:text="date"
+            android:textSize="@dimen/_14sdp"
+            android:maxWidth="@dimen/_150sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TotalPrice"
+            android:gravity="end"
+            android:text="Price"
+            android:singleLine="true"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@color/black"
+            android:maxWidth="@dimen/_160sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_gravity="end"
+            android:padding="@dimen/_2sdp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/EditMain"
+                android:tint="@color/lightblue"
+                android:background="@android:color/transparent"
+                android:src="@drawable/editicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/DeleteMain"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:tint="@color/lightblue"
+                android:background="@android:color/transparent"
+                android:src="@drawable/deleteicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
